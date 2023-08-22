@@ -10,7 +10,7 @@ import pandas as pd
 import gmaps
 import googlemaps
 
-API_KEY = 'AIzaSyCEI4l7A8UwIf5vrZWnxsTFReR17M8sjas'
+API_KEY = 'your_key'
 gmaps.configure(api_key=API_KEY)
 googlemaps = googlemaps.Client(key=API_KEY)
 
